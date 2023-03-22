@@ -1,0 +1,9 @@
+{
+  "crashes-on-launch": "Crashes on launch",
+  "cant-click-box": "Can't click licence agreement box",
+  "asar-assets": "Failing to download the .asar/assets file",
+  "autostartrichpresence": "AutoStartRichPresence issues",
+  "plugin-folder": "Find plugin / theme folder",
+  "not-showing": "BetterDiscord not showing in settings",
+  "folder-detection": "Discord folder not detected"
+}

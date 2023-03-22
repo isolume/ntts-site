@@ -1,0 +1,14 @@
+import { Callout } from 'nextra-theme-docs'
+
+# BetterDiscord installer isn't detecting my Discord installation
+
+<Callout emoji="ℹ️">
+    This answer will work for Windows users only.
+</Callout>
+
+There are two main reasons for this, and they are as follows:
+
+- **You have Discord installed in ProgramData, rather than the local AppData.**
+- Change the path of your installer from what it is to `%programdata%/%username%/Discord/app-1.0.9005/resources`
+- **You have an old version of Discord in your Discord installation folder, and the installer is picking it up. To fix this:**
+- Click `Browse` and choose the folder named `app-1.0.9005`.
