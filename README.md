@@ -11,3 +11,10 @@ pnpm dev
 ```
 
 And visit `localhost:3000` to preview your changes.
+
+## Contributing
+
+If you want to contribute, you have two options. Chose whichever you feel more comfortable with.
+
+1. Submit a pull request on this repo with your contribution.
+2. [Email me](mailto:nerd@n3rd3x3.dev) with what you want to add/change, and I will commit it to this repo.
