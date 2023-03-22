@@ -17,9 +17,9 @@ import {
 /** @type {import('nextra-theme-docs').DocsThemeConfig} */
 const themeConfig = {
   project: {
-    link: "https://github.com/n3rd3x3/ntts-docs",
+    link: "https://github.com/n3rd3x3/ntts-site",
   },
-  docsRepositoryBase: "https://github.com/n3rd3x3/ntts-docs/blob/main",
+  docsRepositoryBase: "https://github.com/n3rd3x3/ntts-site/blob/main",
   useNextSeoProps() {
     return {
       titleTemplate: "%s – NTTS",
