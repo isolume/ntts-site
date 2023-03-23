@@ -35,6 +35,8 @@ export const featuresMap = {
 export const headDescriptionMap = {
   "en-US":
     "No Text To Speech website.",
+  "eg-AR":
+    "No Text To Speech website.",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
@@ -45,6 +47,7 @@ export const feedbackLinkMap = {
   "zh-CN": "有疑问？给我们反馈 →",
   ko: "질문이 있으신가요? 피드백을 남겨주세요 →",
   ru: "Вопросы? Оставьте нам отзыв →",
+  "eg-AR": "Question? Give us feedback →",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
@@ -56,6 +59,7 @@ export const editTextMap = {
   ja: "Github で編集する →",
   ko: "Github에서 이 페이지 편집하기 →",
   ru: "Редактировать эту страницу на GitHub →",
+  "eg-AR": "Edit this page on GitHub →",
 };
 
 /** @type {Readonly<Record<Locale, { utmSource: string; text: string; suffix?: string | undefined }>>} */
@@ -69,11 +73,13 @@ export const tableOfContentsTitleMap = {
   "es-ES": "En esta página",
   "pt-BR": "Nessa página",
   ru: "На этой странице",
+  "eg-AR": "On This Page",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
 export const searchPlaceholderMap = {
   "en-US": "Search page...",
+  "eg-AR": "Search page...",
   "es-ES": "Buscar documento...",
   "pt-BR": "Buscar documentação...",
   ko: "문서 검색...",
