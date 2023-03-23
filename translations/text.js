@@ -6,11 +6,13 @@
 /** @type {Readonly<Record<Locale, string>>} */
 export const languageMap = {
   "en-US": "English",
+  "eg-AR": "Arabic",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
 export const titleMap = {
   "en-US": "No Text To Speech",
+  "eg-AR": "No Text To Speech",
 };
 
 /** @type {Readonly<Record<Locale, {lightweight:string;realtime?:string;suspense?:string;pagination?:string;backendAgnostic?:string;renderingStrategies?:string;typescript?:string;remoteLocal?:string;}>>} */
@@ -21,6 +23,12 @@ export const featuresMap = {
     discord: "Discord",
     yt: "YouTube",
   },
+  "eg-AR": {
+    mail: "بريد الكتروني",
+    rules: "القوانين",
+    discord: "ديسكورد",
+    yt: "يوتيوب",
+  }
 };
 
 /** @type {Readonly<Record<Locale, string>>} */

@@ -1,0 +1,12 @@
+# I can't upload to sxcu.net
+
+If you see an error popup after uploading an image, saying something along the lines of
+`System.Exception: Invalid function name: "color"` then your upload settings are invalid.
+This is caused by a recent Sharex update which added custom `{functions}`, mixing up with the json syntax.
+Follow the steps below to fix this issue:
+
+1. Go to **Destinations > Custom uploader settings**
+2. Select sxcu.net from the **Uploaders** list
+3. Copy the value of `og_properties` into notepad
+4. Place backslashes (\) before each curly bracket in the code (e.g. `\{"color":"#ff0000"\}`)
+5. Copy the code from notepad back into ShareX
