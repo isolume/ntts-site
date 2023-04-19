@@ -4,7 +4,7 @@ import useLocalesMap from "./use-locales-map";
 import { featuresMap, titleMap } from "../translations/text";
 
 import MailIcon from "./icons/mail";
-import RulesIcon from "./icons/rules";
+import DiscordIcon from "./icons/discord";
 import FAQIcon from "./icons/faq";
 import YouTubeIcon from "./icons/youtube";
 
@@ -20,7 +20,7 @@ export function Feature({ text, icon, url }) {
 /** @type {{ key: string; icon: React.FC; url: string}[]} */
 const FEATURES_LIST = [
     { key: "mail", icon: <MailIcon />, url: "mailto:nerd@n3rd3x3.dev" },
-    { key: "discord", icon: <FAQIcon />, url: "https://discord.com/invite/ntts" },
+    { key: "discord", icon: <DiscordIcon />, url: "https://discord.com/invite/ntts" },
     { key: "yt", icon: <YouTubeIcon />, url: "https://www.youtube.com/notexttospeech" },
     { key: "faq", icon: <FAQIcon />, url: "faq" },
 ];
