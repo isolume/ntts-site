@@ -19,7 +19,7 @@ export const titleMap = {
 export const featuresMap = {
   "en-US": {
     mail: "Email",
-    rules: "Rules",
+    faq: "FAQ",
     discord: "Discord",
     yt: "YouTube",
   },

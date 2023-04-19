@@ -22,7 +22,7 @@ const FEATURES_LIST = [
     { key: "mail", icon: <MailIcon />, url: "mailto:nerd@n3rd3x3.dev" },
     { key: "discord", icon: <FAQIcon />, url: "https://discord.com/invite/ntts" },
     { key: "yt", icon: <YouTubeIcon />, url: "https://www.youtube.com/notexttospeech" },
-    { key: "rules", icon: <RulesIcon />, url: "rules" },
+    { key: "faq", icon: <FAQIcon />, url: "faq" },
 ];
 
 export default function Features() {
