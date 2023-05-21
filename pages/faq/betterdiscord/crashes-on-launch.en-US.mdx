@@ -1,50 +1,132 @@
 import { Callout } from 'nextra-theme-docs'
 import { Steps } from 'nextra-theme-docs'
+import { Tab, Tabs } from 'nextra-theme-docs'
 
 # After installing BetterDiscord, Discord crashes on launch
 
-<Callout emoji="ℹ️">
-    This answer will work for Windows users only.
-</Callout>
+<Tabs items={['Windows', 'macOS', 'Linux']}>
+    <Tab>
+        <Steps>
 
-<Steps>
+        ### Go to BetterDiscord folder
 
-### Go to BetterDiscord folder
+        Follow [this tutorial](../plugin-folder) if you are unsure how.
 
-Press `Win + R` and type `%APPDATA%/betterdiscord`.
+        ### Look for the following files and delete them
 
-### Look for the following files and delete them
+        ```
+        0PluginLibrary.plugin
+        0PluginLibrary.plugin.json
+        0PluginLibrary.config.json
+        0PluginLibrary.data.json
+        0PluginLibrary.raw
+        ZeresPluginLibrary.plugin
+        ZeresPluginLibrary.json
+        ZeresPluginLibrary.config.json
+        ZeresPluginLibrary.raw
+        ZeresPluginLibrary.data.json
+        ```
 
-```
-0PluginLibrary.plugin
-0PluginLibrary.plugin.json
-0PluginLibrary.config.json
-0PluginLibrary.data.json
-0PluginLibrary.raw
-ZeresPluginLibrary.plugin
-ZeresPluginLibrary.json
-ZeresPluginLibrary.config.json
-ZeresPluginLibrary.raw
-ZeresPluginLibrary.data.json
-```
-
-<Callout emoji="ℹ️">
-    You might not have all these files, so just delete the ones you have.
-</Callout>
+        <Callout type="info" emoji="ℹ️">
+            You might not have all these files, so just delete the ones you have.
+        </Callout>
 
 
-### Restart Discord
+        ### Restart Discord
 
-Restart Discord via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
+        Restart Discord via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
 
-### Download plugin
+        ### Download plugin
 
-Download [this plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `Ctrl + S` to download it.
+        Download [this plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `Ctrl + S` to download it.
 
-### Save file
+        ### Save file
 
-Copy and paste the downloaded file to your plugins folder, then restart Discord
-again via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
+        Copy and paste the downloaded file to your [plugins folder](../plugin-folder), then restart Discord
+        again via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
 
-</Steps>
+        </Steps>
+    </Tab>
+    <Tab>
+        <Steps>
+
+        ### Go to BetterDiscord folder
+
+        Follow [this tutorial](../plugin-folder) if you are unsure how.
+
+        ### Look for the following files and delete them
+
+        ```
+        0PluginLibrary.plugin
+        0PluginLibrary.plugin.json
+        0PluginLibrary.config.json
+        0PluginLibrary.data.json
+        0PluginLibrary.raw
+        ZeresPluginLibrary.plugin
+        ZeresPluginLibrary.json
+        ZeresPluginLibrary.config.json
+        ZeresPluginLibrary.raw
+        ZeresPluginLibrary.data.json
+        ```
+
+        <Callout type="info" emoji="ℹ️">
+            You might not have all these files, so just delete the ones you have.
+        </Callout>
+
+
+        ### Restart Discord
+
+        Restart Discord.
+
+        ### Download plugin
+
+        Download [this plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `⌘ Command + S` to download it.
+
+        ### Save file
+
+        Copy and paste the downloaded file to your [plugins folder](../plugin-folder), then start Discord.
+
+        </Steps>
+    </Tab> 
+    <Tab>
+        <Steps>
+
+        ### Go to BetterDiscord folder
+
+        Follow [this tutorial](../plugin-folder) if you are unsure how.
+
+        ### Look for the following files and delete them
+
+        ```
+        0PluginLibrary.plugin
+        0PluginLibrary.plugin.json
+        0PluginLibrary.config.json
+        0PluginLibrary.data.json
+        0PluginLibrary.raw
+        ZeresPluginLibrary.plugin
+        ZeresPluginLibrary.json
+        ZeresPluginLibrary.config.json
+        ZeresPluginLibrary.raw
+        ZeresPluginLibrary.data.json
+        ```
+
+        <Callout type="info" emoji="ℹ️">
+            You might not have all these files, so just delete the ones you have.
+        </Callout>
+
+
+        ### Restart Discord
+
+        Restart Discord.
+
+        ### Download plugin
+
+        Download [this plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `Ctrl + S` to download it.
+
+        ### Save file
+
+        Copy and paste the downloaded file to your [plugins folder](../plugin-folder), then start Discord.
+
+        </Steps>
+    </Tab> 
 That's all. Discord should no longer crash on launch!
