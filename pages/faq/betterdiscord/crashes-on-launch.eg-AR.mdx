@@ -1,4 +1,5 @@
 import { Callout } from 'nextra-theme-docs'
+import { Steps } from 'nextra-theme-docs'
 
 # After installing BetterDiscord, Discord crashes on launch
 
@@ -6,8 +7,12 @@ import { Callout } from 'nextra-theme-docs'
     This answer will work for Windows users only.
 </Callout>
 
-1. Press `Win + R` and type `%APPDATA%/betterdiscord`.
-2. Look for these files in the plugins folder and delete them:
+<Steps>
+
+#### Go to BetterDiscord folder
+Press `Win + R` and type `%APPDATA%/betterdiscord`.
+
+#### Look for the following files and delete them
 ```
 0PluginLibrary.plugin
 0PluginLibrary.plugin.json
@@ -25,9 +30,16 @@ ZeresPluginLibrary.data.json
     You might not have all these files, so just delete the ones you have.
 </Callout>
 
-3. Restart Discord again via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
-4. Download [the plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `Ctrl + S` to download it.
-5. Copy and paste the downloaded file to your plugins folder, then restart Discord
+
+#### Restart Discord
+Restart Discord via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
+
+#### Download plugin
+Download [this plugin](https://raw.githubusercontent.com/rauenzi/BDPluginLibrary/master/release/0PluginLibrary.plugin.js). Open the hyperlink, and Press `Ctrl + S` to download it.
+
+#### Save file
+Copy and paste the downloaded file to your plugins folder, then restart Discord
 again via the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
 
+</Steps>
 That's all. Discord should no longer crash on launch!
