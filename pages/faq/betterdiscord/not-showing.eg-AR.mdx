@@ -1,4 +1,4 @@
-import { Callout } from 'nextra-theme-docs'
+import { Callout, Steps } from 'nextra-theme-docs'
 
 # BetterDiscord is not showing in the settings
 
@@ -10,12 +10,31 @@ If the problem persists, proceed with the steps outlined below.
     This answer will work for Windows users only.
 </Callout>
 
-1. Completely quit Discord using the task manager or the system tray.
-2. Open Run (`Win + R`), type `%localappdata/%` and press OK.
-3. Navigate to the `Discord` folder, and delete the folder inside named `app-1.0.9005`. If there is no such folder, or if it is named differently (e.g `app-1.0.9004`), delete it reguardless.
-4. Restart your PC and relaunch Discord. It might throw an error at you, just ignore that and continue with the guide.
-5. Download and install BetterDiscord. The installer can be found at [BetterDiscord's official site](https://betterdiscord.app/).
-6. Restart Discord by quitting it from the task manager or the system tray, and launching it again.
+<Steps>
+
+### Stop Discord
+
+Quit discord using task manager or the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon.
+
+### Go to appdata folder
+
+Open Run (⊞ Win + R), type `%localappdata/%`, and then press `Enter ↩`.
+
+### Delete folder
+
+Navigate to the `Discord` folder, and delete the folder inside named `app-1.0.9005`. If there is no such folder, or if it is named differently (e.g `app-1.0.9004`), delete it reguardless.
+
+### Restart PC
+
+Restart your PC and relaunch Discord. It might throw an error at you, just ignore that and continue with the guide.
+
+### Install BetterDiscord
+
+Download and install BetterDiscord. The installer can be found at [BetterDiscord's official site](https://betterdiscord.app/).
+
+### Restart Discord
+
+Restart Discord by quitting it from the task manager or the [system tray](https://www.tutorialspoint.com/windows10/windows10_system_tray.htm) icon, and launching it again.
 
 <Callout type="warning" emoji="⚠️">
     If none of the steps mentioned above work, as a last resort you could try reinstalling [Discord](https://discord.com/download) and [BetterDiscord](https://betterdiscord.app/) from scratch.
