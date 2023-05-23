@@ -1,17 +1,30 @@
-import { Tabs, Tab } from 'nextra-theme-docs'
+import { Tabs, Tab, Steps } from 'nextra-theme-docs'
 import Link from 'next/link'
 
 <Tabs items={['Windows', 'macOS', 'Linux']}>
     <Tab>
-        1. Press `Press ⊞ Win + R`.
-        2. Paste `%appdata%/betterdiscord/` and press `Enter ↩`.
+        <Steps>
+            ### Open Run
+
+            Press  `⊞ Win + R`.
+
+            ### Enter folder
+
+            Paste in `%appdata%/betterdiscord/` and press `Enter ↩`.
+        </Steps>
     </Tab>
     <Tab>
-        1. Open Finder.
-        2. Press `⇧ Shift + ⌘ Command + G`.
-        3. Paste: `~/Library/ApplicationSupport/betterdiscord/` and press  `return ↩`.
+        <Steps>
+            ### Open Go To dialogue
+
+            Open finder, and then press `⌘ Command + ⇧ Shift + G`.
+
+            ### Go to folder
+
+            Paste in `~/Library/ApplicationSupport/betterdiscord/` and press  `return ↩`.
+        </Steps>
     </Tab>
     <Tab>
-        1. Navigate to `~/.config/BetterDiscord/`.
+        Navigate to `~/.config/BetterDiscord/`.
     </Tab>
 </Tabs>
