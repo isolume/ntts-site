@@ -78,8 +78,8 @@ export const tableOfContentsTitleMap = {
 
 /** @type {Readonly<Record<Locale, string>>} */
 export const searchPlaceholderMap = {
-  "en-US": "Search page...",
-  "eg-AR": "Search page...",
+  "en-US": "Search site...",
+  "eg-AR": "Search site...",
   "es-ES": "Buscar documento...",
   "pt-BR": "Buscar documentação...",
   ko: "문서 검색...",
