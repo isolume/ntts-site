@@ -1,12 +1,14 @@
-# I can't upload to sxcu.net
+# WackyWebM - module error
 
-If you see an error popup after uploading an image, saying something along the lines of
-`System.Exception: Invalid function name: "color"` then your upload settings are invalid.
-This is caused by a recent Sharex update which added custom `{functions}`, mixing up with the json syntax.
-Follow the steps below to fix this issue:
+The WackyWebM script has gone through many changes since the video was uploaded, so it's possible that you might see an error like this:
+```
 
-1. Go to **Destinations > Custom uploader settings**
-2. Select sxcu.net from the **Uploaders** list
-3. Copy the value of `og_properties` into notepad
-4. Place backslashes (\) before each curly bracket in the code (e.g. `\{"color":"#ff0000"\}`)
-5. Copy the code from notepad back into ShareX
+node:internal/modules/cjs/loader:xxx
+  throw err;
+  ^
+
+Error: Cannot find module 'upng-js'
+```
+To fix this, simply type `npm run` into the command prompt (this also opens a custom interface for easier use).
+
+If this doesn't work, you can install the missing modules manually using `npm i`.
