@@ -2,11 +2,14 @@ import { Callout } from 'nextra-theme-docs'
 
 # How can I fix the spicetify 'prefs_path' error?
 
-<Callout emoji="ℹ️">
+<Callout type="info" emoji="ℹ️">
     This answer will work for Windows users only.
 </Callout>
 
 The fix for this is quite simple. All you have to do is run this one simple command in Powershell (Run as Admin):
 
-```(Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/deathcrafter/RainRepo/main/FixSpicetifyPrefs.ps1").Content | Invoke-Expression```
+```
+(Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/deathcrafter/RainRepo/main/FixSpicetifyPrefs.ps1").Content | Invoke-Expression
+```
+
 This fix was made by: [deathcrafter](https://github.com/deathcrafter)
