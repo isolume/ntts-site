@@ -43,14 +43,6 @@ const themeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 1,
   },
-  banner: {
-    key: 'server-reopen',
-    text: (
-      <a href="https://discord.gg/ntts" target="_blank">
-        🎉 The Discord server has re-opened! Join now →
-      </a>
-    )
-  },
   logo: () => {
     const title = useLocalesMap(titleMap);
     return (
