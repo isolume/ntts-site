@@ -1,3 +1,9 @@
+const { withPlausibleProxy } = require('next-plausible')
+
+module.exports = withPlausibleProxy()({
+  customDomain: 'http://think.tsukim.io',
+})
+
 const withNextra = require("nextra")({
   theme: "nextra-theme-docs",
   themeConfig: "./theme.config.js",
