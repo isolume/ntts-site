@@ -1,11 +1,11 @@
 import "../styles.css";
-import { Analytics } from "@vercel/analytics/react";
+import PlausibleProvider from 'next-plausible'
 
 export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics />
+      <PlausibleProvider domain="notexttospeech.com" customDomain="think.tsukim.io" selfHosted="true" />
     </>
   );
 }
