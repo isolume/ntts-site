@@ -19,7 +19,7 @@ export function Feature({ text, icon, url }) {
 
 /** @type {{ key: string; icon: React.FC; url: string}[]} */
 const FEATURES_LIST = [
-    { key: "mail", icon: <MailIcon />, url: "mailto:nerd@n3rd3x3.dev" },
+    { key: "mail", icon: <MailIcon />, url: "mailto:notexttospeech@gmail.com" },
     { key: "discord", icon: <DiscordIcon />, url: "https://discord.com/invite/ntts" },
     { key: "yt", icon: <YouTubeIcon />, url: "https://www.youtube.com/notexttospeech" },
     { key: "faq", icon: <FAQIcon />, url: "faq" },
