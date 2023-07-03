@@ -30,8 +30,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
   react-intersection-observer:
-    specifier: ^9.5.1
-    version: 9.5.1(react@18.2.0)
+    specifier: ^9.5.2
+    version: 9.5.2(react@18.2.0)
 
 devDependencies:
   autoprefixer:
@@ -2194,8 +2194,8 @@ packages:
       scheduler: 0.23.0
     dev: false
 
-  /react-intersection-observer@9.5.1(react@18.2.0):
-    resolution: {integrity: sha512-YwcNF/4WsMAG1rLVDQHSbpdEW9vDaIl4QW88d+vqeXNUewFV4AJDQB14oHpAJ3rRCnKRmwu3nqfwwYe6wioNIg==}
+  /react-intersection-observer@9.5.2(react@18.2.0):
+    resolution: {integrity: sha512-EmoV66/yvksJcGa1rdW0nDNc4I1RifDWkT50gXSFnPLYQ4xUptuDD4V7k+Rj1OgVAlww628KLGcxPXFlOkkU/Q==}
     peerDependencies:
       react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
