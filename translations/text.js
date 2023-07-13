@@ -6,7 +6,6 @@
 /** @type {Readonly<Record<Locale, string>>} */
 export const languageMap = {
   "en-US": "English",
-  "eg-AR": "Arabic",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
