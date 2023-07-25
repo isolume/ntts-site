@@ -15,8 +15,8 @@ dependencies:
     specifier: ^13.4.10
     version: 13.4.10(react-dom@18.2.0)(react@18.2.0)
   next-plausible:
-    specifier: ^3.10.0
-    version: 3.10.0(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^3.10.1
+    version: 3.10.1(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)
   nextra:
     specifier: ^2.4.2
     version: 2.4.2(next@13.4.10)(react-dom@18.2.0)(react@18.2.0)
@@ -1827,8 +1827,8 @@ packages:
       - supports-color
     dev: false
 
-  /next-plausible@3.10.0(next@13.4.10)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-iXnt0+whmegBDCjcoSxMWpnBfdDKGKoYGXnFnS0miRxv5J5yzOi1nWQcDUOIYCk39tcclpBpC5hwtI4f3cZfNw==}
+  /next-plausible@3.10.1(next@13.4.10)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-3GyBQH+sUfovemgwvodx84djMlF/o+FoSPtCS2QVFNiJtwGFuhs6CQckMIv+VWdz9zERwZB2nJLJLmgV6aT/aA==}
     peerDependencies:
       next: ^11.1.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
