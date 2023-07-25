@@ -1,4 +1,7 @@
-# [NTTS website](https://notexttospeech.com)
+# This repo is now archived. To view the code now being used, please visit [the new repo](https://github.com/NoTextToSpeech/ntts-site).
+
+
+## [NTTS website](https://notexttospeech.com)
 
 The official website for [No Text To Speech](https://youtube.com/notexttospeech).
 This has a lot of info for NTTS Discord server members as well.
